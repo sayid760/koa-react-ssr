@@ -1,6 +1,6 @@
 # koa + react + ssr 脚手架
 
-# 功能
+## 功能
 - [x] 基于cra脚手架开发
 - [x] 使用koa作为nodejs框架，可以替换成其他框架
 - [x] 支持react路由
@@ -20,7 +20,7 @@ npm run prod    # 打包完服务端及客户端文件后，启动服务器
 npm run analyze # 可视化分析客户端打包的资源详情
 ```
 
-# 思路
+## 思路
 1、本地开发环境怎么做热更替？</br>
 client端：webpack自带的devServer（底层还是webpack-dev-server）可以监听页面修改，并且打包出内存文件bundle.js</br>
 server端：webpack.config.server.js本身打包出的只是本页面的css、js，不涉及交互的js，所以必须把bundle.js插入到html内，且通过nodejs去访问devServer监听变化打包出bundle.js</br>
