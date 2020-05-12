@@ -1,0 +1,25 @@
+{
+  "name": "rssr-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rssr-cli": "./bin/cli"
+  },
+  "keywords": [],
+  "author": "sayid760",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.6",
+    "ora": "^4.0.4"
+  },
+  "devDependencies": {
+    "inquirer": "^7.1.0",
+    "shelljs": "^0.8.4"
+  }
+}
