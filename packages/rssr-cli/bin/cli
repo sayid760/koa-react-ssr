@@ -1,0 +1,5 @@
+#! /usr/bin/env  node
+// 指定脚本解析器 指定node解析
+
+// 一个可执行的文件
+require('../src/main.js');
